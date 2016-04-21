@@ -42,6 +42,16 @@ The relevant code snippet which can be retrieved via the [Stepsize](http://steps
 
 Custom commands for your own team have almost no restrictions (HTTPS support with valid SSL certificate), but if you aim to share your commands as Slack apps there are some [additional restrictions](https://api.slack.com/slash-commands).
 
+### [Web API](https://api.slack.com/web) – Interact with Slack in more complex ways
+
+To be added
+
+### [Real Time Messaging API](https://api.slack.com/rtm) – WebSocket-based API to receive events from Slack in real time and send messages as users
+
+To be added
+
 # Resources
 
 [Message formatting](https://api.slack.com/docs/formatting) – all text in Slack uses the same system of escaping and can be richly formatted using a simple markup language similiar to Markdown
+
+[Widely-used open source libraries](https://api.slack.com/community)
