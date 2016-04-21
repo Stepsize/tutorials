@@ -21,3 +21,12 @@ Fork, create readme in approriate location following the sample structure (to be
 # Index
 
 List of available tutorials & snippet bundles
+
+```
+├── apis_sdks
+|   ├── communications
+|   |   ├── Twilio [Python]
+|   |   └── WeChat [Objective-C]
+|   └── machine_intelligence
+└── frameworks_libraries
+```
