@@ -24,10 +24,11 @@ List of available tutorials & snippet bundles
 
 [APIs & SDKs](https://github.com/Stepsize/tutorials/tree/master/apis_sdks)
 - [Communications](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/communications)
+  - Slack [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/slack_py.md)]
   - Twilio [Python]
-  - [WeChat](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/wechat.md) [Objective-C]
+  - WeChat [[Objective-C](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/wechat_objc.md)]
 
 # Disclaimer
 
-_Obligatory legalese..._
+_Attempt at legalese..._
 >The content you can find in the tutorials and in the Stepsize app belongs to and was created by the owners/creators of the APIs, SDKs, frameworks, or libraries in question. Each tutorial references the origin of that content.
