@@ -6,6 +6,7 @@ With the [Slack API](https://api.slack.com/), you can create custom integrations
 
 This tutorial provides an overview of the API and code snippets for Python using:
 - [`requests`](http://docs.python-requests.org/en/master/)
+- [`flask`](http://flask.pocoo.org/)
 - [`python-slackclient`](https://github.com/slackhq/python-slackclient)
 
 # Setup
@@ -15,6 +16,7 @@ If you don't have a team or just want your own personal sandbox to develop in, [
 ### [Incoming Webhooks](https://api.slack.com/incoming-webhooks) – Send data into Slack in real-time
 
 Incoming Webhooks are a simple way to post messages from external sources into Slack.
+
 1. [Create a webhook](https://my.slack.com/services/new/incoming-webhook/)
 2. [POST a JSON payload](https://gist.github.com/devStepsize/b1b795309a217d24566dcc0ad136f784) to your webhook URL
 
@@ -27,6 +29,7 @@ To create richly formatted messages, see [Message formatting](https://api.slack.
 ### [Slash Commands](https://api.slack.com/slash-commands) – Allow users to interact with external services directly from Slack
 
 Messages that start with a slash `/` are commands and will behave differently from regular messages – they're used to interact with external services.
+
 1. Create a custom command [here](https://my.slack.com/services/new/slash-commands)
 2. Implement your server-side logic to respond to the command
   - If the request fails validation, respond with a HTTP status code other than `200`
