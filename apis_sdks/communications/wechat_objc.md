@@ -1,6 +1,8 @@
 # Overview
 
-[WeChat](http://wechat.com/) is a messaging & calling app with over 300 million users. Their [API](http://dev.wechat.com/wechatapi) allows you to integrate sharing via WeChat message and [WeChat Moments](http://www.wechat.com/en/features.html#moments) into your app so your users can easily share the content (whether it's text, images, videos, links, music) with others via WeChat.
+[WeChat](http://wechat.com/) is a messaging & calling app with over 300 million users – it's particularly popular in China. Their [API](http://dev.wechat.com/wechatapi) allows you to integrate sharing via WeChat message and [WeChat Moments](http://www.wechat.com/en/features.html#moments) into your app so your users can easily share the content (whether it's text, images, videos, links, music) with others via WeChat.
+
+This tutorial provides an overview of the API and code snippets for Objective-C.
 
 # Setup
 
@@ -8,19 +10,12 @@ WeChat provides iOS and Android SDKs – installing them is pretty simple, and y
 
 # Using the API
 
-### Languages supported by Stepsize
-
-Code snippets can be found in the Stepsize app for this API and the following languages:
-- Objective-C
-
-### Code snippets
-
 To share any rich media from your application to WeChat, you'll need to:
   - Import & add the `WXApiDelegate` protocol
   - Create an instance of `WXMediaMessage` – the content to share
   - Send this `WXMediaMessage` via the API using `SendMessageToWXReq` with `WXSceneSession` for messages and `WXSceneTimeline` for moments
 
-These are all the code snippets which can be retrieved via the [Stepsize](http://stepsize.com/) app:
+These are all the code snippets which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app:
   - [Import statements](https://gist.github.com/devStepsize/aba5498b3c760582b48bea41300ecf68) – search for `wechat import`
   - [Image](https://gist.github.com/devStepsize/43098ffc5ae71790301c10344adcf632) – search for `wechat image`
   - [Music](https://gist.github.com/devStepsize/fafbdca599972bb60cf099ca26d4d3ef) – search for `wechat music`
