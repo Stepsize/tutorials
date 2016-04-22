@@ -8,7 +8,7 @@ Here's what you can do with the API:
 - Send data into Slack in real-time with [Incoming Webhooks](#incoming-webhooks--send-data-into-slack-in-real-time)
 - Allow users to interact with external services directly from Slack with [Slash Commands](#slash-commands--allow-users-to-interact-with-external-services-directly-from-slack)
 - Get data out of Slack in real-time with [Outgoing Webhooks](#outgoing-webhooks--get-data-out-of-slack-in-real-time)
-- Interact with Slack in more complex ways with the Web API (e.g. manipulate channels, files, etc.)
+- Interact with Slack in more complex ways with the [Web API](#web-api--interact-with-slack-in-more-complex-ways) (e.g. manipulate channels, files, etc.)
 - Create bot users with the Real Time Messaging API
 
 This tutorial provides an overview of the API and code snippets for Python using:
@@ -64,17 +64,30 @@ The relevant code snippet which can be retrieved via the [Stepsize](http://steps
 
 Slack's web API exposes a bunch of methods to interact with Slack in more complex ways – e.g. manipulate channels & files, create reminders, etc. The full list of API methods can be found [here](https://api.slack.com/methods).
 
-Slack provides a really simple client called `python-slackclient` to use the API in Python. Install it by runnning `pip install slackclient`.
+Slack provides a really simple client called [`python-slackclient`](https://github.com/slackhq/python-slackclient) to use the API in Python. Install it by runnning `pip install slackclient`.
 
 The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app is:
-- [Call the Web API](https://gist.github.com/devStepsize/3a88cecceb3556c45829bc5388a150ee) with `python-slackclient` – search for `slack web api`
+- [Call the Web API](https://gist.github.com/devStepsize/3a88cecceb3556c45829bc5388a150ee) with [`python-slackclient`](https://github.com/slackhq/python-slackclient) – search for `slack web api`
 
 ### [Real Time Messaging API](https://api.slack.com/rtm) – WebSocket-based API to receive events from Slack in real time and send messages as users
 
-To be added
+The Real Time Messaging API is a WebSocket-based API that allows you to receive events from Slack in real time and send messages as users.
+
+If you're not familiar with WebSocket, check [wikipedia](https://en.wikipedia.org/wiki/WebSocket) – basically it allows you to open a bi-directional communication channel between two apps and keep it open while you do your thing and data flows back and forth between the two apps.
+
+Slack's [`python-slackclient`](https://github.com/slackhq/python-slackclient) makes this ridiculously simple. If you need to, install it by runnning `pip install slackclient`.
+
+The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app is:
+- [Using the Real Time Messaging API](https://gist.github.com/devStepsize/b37376c8263a02359401e6f0c155a3ea) with [`python-slackclient`](https://github.com/slackhq/python-slackclient) – search for `slack real time api`
+
+The list of all event types which Slack may send to your app as well as the messages your can send to Slack can be found [here](https://api.slack.com/rtm).
+
+See [python-rtmbot](https://github.com/slackhq/python-rtmbot/) for an active project using the Real Time Messaging API with [`python-slackclient`](https://github.com/slackhq/python-slackclient).
 
 # Resources
 
 [Message formatting](https://api.slack.com/docs/formatting) – all text in Slack uses the same system of escaping and can be richly formatted using a simple markup language similiar to Markdown
 
 [Widely-used open source libraries](https://api.slack.com/community)
+
+[How to write a Slack bot end-to-end using Python and `python-slackclient`](https://medium.com/@julianmartinez/how-to-write-a-slack-bot-end-to-end-d6a8542c854b#.f04moiyf5)
