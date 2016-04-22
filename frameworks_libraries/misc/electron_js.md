@@ -23,9 +23,12 @@ Note: The web pages are rendered with Chromium.
 
 ### [Electron App Structure](http://electron.atom.io/docs/v0.37.7/tutorial/quick-start/#write-your-first-electron-app)
 `your-app/`
-`&nbsp;&nbsp;├── package.json`
-`&nbsp;&nbsp;├── main.js`
-`&nbsp;&nbsp;└── index.html`
+
+`├── package.json`
+
+`├── main.js`
+
+`└── index.html`
 
 The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app is:
 - [Basic package.json example](http://gist.github.com/3d7efcd4ded630718e7514f80cb09eeb)
