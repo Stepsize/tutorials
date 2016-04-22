@@ -9,7 +9,7 @@ Here's what you can do with the API:
 - Allow users to interact with external services directly from Slack with [Slash Commands](#slash-commands--allow-users-to-interact-with-external-services-directly-from-slack)
 - Get data out of Slack in real-time with [Outgoing Webhooks](#outgoing-webhooks--get-data-out-of-slack-in-real-time)
 - Interact with Slack in more complex ways with the [Web API](#web-api--interact-with-slack-in-more-complex-ways) (e.g. manipulate channels, files, etc.)
-- Create bot users with the Real Time Messaging API
+- Create bot users with the [Real Time Messaging API](#real-time-messaging-api--websocket-based-api-to-receive-events-from-slack-in-real-time-and-send-messages-as-users)
 
 This tutorial provides an overview of the API and code snippets for Python using:
 - [`requests`](http://docs.python-requests.org/en/master/)
@@ -83,6 +83,10 @@ The relevant code snippet which can be retrieved via the [Stepsize](http://steps
 The list of all event types which Slack may send to your app as well as the messages your can send to Slack can be found [here](https://api.slack.com/rtm).
 
 See [python-rtmbot](https://github.com/slackhq/python-rtmbot/) for an active project using the Real Time Messaging API with [`python-slackclient`](https://github.com/slackhq/python-slackclient).
+
+If you're planning to use the Real Time Messaging API to create a bot, you'll want to read this [documentation](https://api.slack.com/bot-users). You'll want to connect to the API using your bot user's OAuth token, awarded to you a when team authorises your application. Create a bot user [here](https://my.slack.com/services/new/bot).
+
+Note: if you're familiar with Node.js, you might want to consider using [Botkit](https://howdy.ai/botkit/) to create your bot – the framework takes care of most of the API gymnastics.
 
 # Resources
 
