@@ -12,6 +12,7 @@ These are the available tutorials and snippet bundles:
 
 [APIs & SDKs](https://github.com/Stepsize/tutorials/tree/master/apis_sdks)
 - [Communications](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/communications)
+  - Botkit [[Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/botkit_js.md)]
   - Slack [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/slack_py.md)]
   - Twilio [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/twilio_py.md)]
   - WeChat [[Objective-C](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/wechat_objc.md)]

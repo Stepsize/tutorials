@@ -1,4 +1,4 @@
-# Overview
+# Overview
 
 Botkit is a toolkit for making bot applications. It's designed to ease the process of designing and running useful, creative bots that live inside Slack & Facebook Messenger.
 
