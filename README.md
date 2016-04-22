@@ -1,32 +1,36 @@
 # Overview
 
-A set of short tutorials with code snippet describing how to use various APIs, SDKs, libraries, and frameworks
+This repo contains a set of short tutorials with code snippets describing how to use various APIs, SDKs, libraries.
 
-# How to navigate this repo
+It's pretty empty at the moment, but we'll be creating content right up until HackSussex begins.
 
-Structure explained
-
-Links to index for each part
-
-# Requests
-
-Raise a GitHub issue
-
-Comment on an issue if you see a request for API already raised.
-
-# Contributing
-
-Fork, create readme in approriate location following the sample structure (to be created), submit PR
+To pick up the new code snippets in the [Stepsize](http://stepsize.com/?ref=hacksussex) app as soon as they're available, just hit the sync button or reboot the app. That's it.
 
 # Index
 
-List of available tutorials & snippet bundles
+These are the available tutorials and snippet bundles:
 
 [APIs & SDKs](https://github.com/Stepsize/tutorials/tree/master/apis_sdks)
 - [Communications](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/communications)
   - Slack [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/slack_py.md)]
   - Twilio [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/twilio_python.md)]
   - WeChat [[Objective-C](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/wechat_objc.md)]
+
+# Requests
+
+If you're planning to use an API during the hackathon and would like some code snippets, don't hesitate to raise a GitHub issue and we'll try to get to it as soon as possible.
+
+Also, make sure to +1 open requests if you also want snippets for the API in question – this will help us prioritise requests.
+
+# Contributing
+
+If you'd like to contribute tutorials & code snippets, please feel free to go ahead and fork the repo, create your tutorial (follow the [sample structure](https://github.com/Stepsize/tutorials/blob/master/sample.md)) and submit a pull request when it's ready.
+
+The only thing we'll need is for you to create the code snippets via the [Stepsize](http://stepsize.com/?ref=hacksussex) app and tag all of them with:
+- `hacksussex`
+- `<api_name>-bundle`
+
+This will allow us to share the snippets with everyone.
 
 # Disclaimer
 
