@@ -4,6 +4,13 @@ No need to introduce [Slack](https://slack.com/) – you've heard of it. Let's g
 
 With the [Slack API](https://api.slack.com/), you can create custom integrations for your own team or apps that you make available to the public. In any case, you need to start by building a custom integration, and if you want to turn it into an app, submit it to Slack to be reviewed and approved.
 
+Here's what you can do with the API:
+- Send data into Slack in real-time with [Incoming Webhooks](#incoming-webhooks--send-data-into-slack-in-real-time)
+- Allow users to interact with external services directly from Slack with [Slash Commands](#slash-commands--allow-users-to-interact-with-external-services-directly-from-slack)
+- Get data out of Slack in real-time with Outgoing Webhooks
+- Interact with Slack in more complex ways with the Web API (e.g. manipulate channels, files, etc.)
+- Create bot users with the Real Time Messaging API
+
 This tutorial provides an overview of the API and code snippets for Python using:
 - [`requests`](http://docs.python-requests.org/en/master/)
 - [`flask`](http://flask.pocoo.org/)
@@ -41,6 +48,17 @@ The relevant code snippet which can be retrieved via the [Stepsize](http://steps
 - [Handle slash commands with Flask](https://gist.github.com/devStepsize/59c15d850e82a77e539b8ff3d5cb5cad) – search for `slack slash command`
 
 Custom commands for your own team have almost no restrictions (HTTPS support with valid SSL certificate), but if you aim to share your commands as Slack apps there are some [additional restrictions](https://api.slack.com/slash-commands).
+
+### [Outgoing Webhooks](https://api.slack.com/outgoing-webhooks) – Get data out of Slack in real-time
+
+This integration is only available in public channels. Outgoing webhooks will run on messages sent to Slack when one or both of the following are true:
+- The message is in the specified channel
+- The message begins with one of the defined trigger word(s)
+
+When a chat message is received that matches the conditions, a JSON payload will be POSTed to all of the URLs defined.
+
+The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app is:
+- [Handle outgoing webhook with Flask](https://gist.github.com/devStepsize/6b5f970c5d910e5bad5f76d2a2812caa) – search for `slack outgoing webhook`
 
 ### [Web API](https://api.slack.com/web) – Interact with Slack in more complex ways
 
