@@ -1,8 +1,8 @@
 # Overview
 
-This repo contains a set of short tutorials with code snippets describing how to use various APIs, SDKs, libraries.
+This repo contains a set of short tutorials with code snippets describing how to use various APIs, SDKs, and libraries.
 
-It's pretty empty at the moment, but we'll be creating content right up until HackSussex begins.
+It's pretty empty at the moment but we'll be creating content right up until HackSussex begins.
 
 To pick up the new code snippets in the [Stepsize](http://stepsize.com/?ref=hacksussex) app as soon as they're available, just hit the sync button or reboot the app. That's it.
 
@@ -13,12 +13,12 @@ These are the available tutorials and snippet bundles:
 [APIs & SDKs](https://github.com/Stepsize/tutorials/tree/master/apis_sdks)
 - [Communications](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/communications)
   - Slack [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/slack_py.md)]
-  - Twilio [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/twilio_python.md)]
+  - Twilio [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/twilio_py.md)]
   - WeChat [[Objective-C](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/wechat_objc.md)]
 
 # Requests
 
-If you're planning to use an API during the hackathon and would like some code snippets, don't hesitate to raise a GitHub issue and we'll try to get to it as soon as possible.
+If you're planning to use an API during the hackathon and would like some code snippets, don't hesitate to raise an issue and we'll try to get to it as soon as possible.
 
 Also, make sure to +1 open requests if you also want snippets for the API in question – this will help us prioritise requests.
 
