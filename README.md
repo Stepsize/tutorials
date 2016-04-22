@@ -15,6 +15,14 @@ These are the available tutorials and snippet bundles:
   - Slack [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/slack_py.md)]
   - Twilio [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/twilio_py.md)]
   - WeChat [[Objective-C](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/wechat_objc.md)]
+- [Machine Intelligence](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/machine_intelligence)
+  - AlchemyAPI [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/alchemyapi_py.md)]
+- [Social](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/social)
+  - Twitter [[Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/social/twitter_js.md)]
+
+[Frameworks & Libraries](https://github.com/Stepsize/tutorials/tree/master/frameworks_libraries)
+- [Miscellaneous](https://github.com/Stepsize/tutorials/tree/master/frameworks_libraries/misc)
+  - Electron [[Node.js](https://github.com/Stepsize/tutorials/tree/master/frameworks_libraries/misc/electron_js.md)]
 
 # Requests
 
