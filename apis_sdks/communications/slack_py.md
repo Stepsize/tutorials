@@ -4,6 +4,13 @@ No need to introduce [Slack](https://slack.com/) – you've heard of it. Let's g
 
 With the [Slack API](https://api.slack.com/), you can create custom integrations for your own team or apps that you make available to the public. In any case, you need to start by building a custom integration, and if you want to turn it into an app, submit it to Slack to be reviewed and approved.
 
+Here's what you can do with the API:
+- Send data into Slack in real-time with [Incoming Webhooks](#inc_hook)
+- Allow users to interact with external services directly from Slack with Slash Commands
+- Get data out of Slack in real-time with Outgoing Webhooks
+- Interact with Slack in more complex ways with the Web API (e.g. manipulate channels, files, etc.)
+- Create bot users with the Real Time Messaging API
+
 This tutorial provides an overview of the API and code snippets for Python using:
 - [`requests`](http://docs.python-requests.org/en/master/)
 - [`flask`](http://flask.pocoo.org/)
@@ -13,7 +20,7 @@ This tutorial provides an overview of the API and code snippets for Python using
 
 If you don't have a team or just want your own personal sandbox to develop in, [create a new team](https://slack.com/create).
 
-### [Incoming Webhooks](https://api.slack.com/incoming-webhooks) – Send data into Slack in real-time
+### [Incoming Webhooks](https://api.slack.com/incoming-webhooks) – Send data into Slack in real-time<a name="inc_hook"></a>
 
 Incoming Webhooks are a simple way to post messages from external sources into Slack.
 
