@@ -4,7 +4,7 @@ This is guide provides an overview of how to get up and running with the [Twitte
 
 # Setup
 
-Assuming you've got a simple node server set up, install the Twitter [npm package](https://www.npmjs.com/package/twitter).
+Assuming you've got a simple node server set up, install the Twitter [npm package](https://www.npmjs.com/package/twitter) by running `npm install --save twitter`.
 
 Then register a new app with Twitter [here](https://apps.twitter.com/) or get the credentials of an existing one.
 
