@@ -6,7 +6,7 @@ With the [Slack API](https://api.slack.com/), you can create custom integrations
 
 Here's what you can do with the API:
 - Send data into Slack in real-time with [Incoming Webhooks](#incoming-webhooks--send-data-into-slack-in-real-time)
-- Allow users to interact with external services directly from Slack with Slash Commands
+- Allow users to interact with external services directly from Slack with [Slash Commands](#slash-commands--allow-users-to-interact-with-external-services-directly-from-slack)
 - Get data out of Slack in real-time with Outgoing Webhooks
 - Interact with Slack in more complex ways with the Web API (e.g. manipulate channels, files, etc.)
 - Create bot users with the Real Time Messaging API
@@ -20,7 +20,7 @@ This tutorial provides an overview of the API and code snippets for Python using
 
 If you don't have a team or just want your own personal sandbox to develop in, [create a new team](https://slack.com/create).
 
-### <a name="inc_hook"></a>[Incoming Webhooks](https://api.slack.com/incoming-webhooks) – Send data into Slack in real-time
+### [Incoming Webhooks](https://api.slack.com/incoming-webhooks) – Send data into Slack in real-time
 
 Incoming Webhooks are a simple way to post messages from external sources into Slack.
 
@@ -48,6 +48,17 @@ The relevant code snippet which can be retrieved via the [Stepsize](http://steps
 - [Handle slash commands with Flask](https://gist.github.com/devStepsize/59c15d850e82a77e539b8ff3d5cb5cad) – search for `slack slash command`
 
 Custom commands for your own team have almost no restrictions (HTTPS support with valid SSL certificate), but if you aim to share your commands as Slack apps there are some [additional restrictions](https://api.slack.com/slash-commands).
+
+### [Outgoing Webhooks](https://api.slack.com/outgoing-webhooks) – Get data out of Slack in real-time
+
+This integration is only available in public channels. Outgoing webhooks will run on messages sent to Slack when one or both of the following are true:
+- The message is in the specified channel
+- The message begins with one of the defined trigger word(s)
+
+When a chat message is received that matches the conditions, a JSON payload will be POSTed to all of the URLs defined.
+
+The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app is:
+- [Handle outgoing webhook with Flask](https://gist.github.com/devStepsize/6b5f970c5d910e5bad5f76d2a2812caa) – search for `slack outgoing webhook`
 
 ### [Web API](https://api.slack.com/web) – Interact with Slack in more complex ways
 
