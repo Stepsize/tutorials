@@ -82,6 +82,8 @@ The relevant code snippet which can be retrieved via the [Stepsize](http://steps
 
 The list of all event types which Slack may send to your app as well as the messages your can send to Slack can be found [here](https://api.slack.com/rtm).
 
+#### Building Bots with the RTM API
+
 See [python-rtmbot](https://github.com/slackhq/python-rtmbot/) for an active project using the Real Time Messaging API with [`python-slackclient`](https://github.com/slackhq/python-slackclient).
 
 If you're planning to use the Real Time Messaging API to create a bot, you'll want to read this [documentation](https://api.slack.com/bot-users). You'll want to connect to the API using your bot user's OAuth token, awarded to you a when team authorises your application. Create a bot user [here](https://my.slack.com/services/new/bot).
