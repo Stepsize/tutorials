@@ -1,12 +1,12 @@
 # Overview
 
-This is guide provides an overview of how to get up and running with the [Twitter API](https://dev.twitter.com/overview/api) and a few Node.js code snippets to perform some common operations.
+This is guide provides an overview of how to get up and running with the [Twitter API](https://dev.twitter.com/overview/api) with [`node-twitter`](https://github.com/desmondmorris/node-twitter), as well as a few Node.js code snippets to perform some common operations.
 
 # Setup
 
-Assuming you've got a simple node server set up, install the twitter [npm package](https://www.npmjs.com/package/twitter).
+Assuming you've got a simple node server set up, install the Twitter [npm package](https://www.npmjs.com/package/twitter).
 
-Then register a new app with twitter [here](https://apps.twitter.com/) or get the credentials of an existing one.
+Then register a new app with Twitter [here](https://apps.twitter.com/) or get the credentials of an existing one.
 
 # Using the Twitter API with Stepsize
 
