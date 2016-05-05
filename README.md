@@ -36,7 +36,7 @@ Also, make sure to +1 open requests if you also want snippets for the API in que
 If you'd like to contribute tutorials & code snippets, please feel free to go ahead and fork the repo, create your tutorial (follow the [sample structure](https://github.com/Stepsize/tutorials/blob/master/sample.md)) and submit a pull request when it's ready.
 
 The only thing we'll need is for you to create the code snippets via the [Stepsize](http://stepsize.com/?ref=hacksussex) app and tag all of them with:
-- `hacksussex`
+- `anvilhack`
 - `<api_name>-bundle`
 
 This will allow us to share the snippets with everyone.
