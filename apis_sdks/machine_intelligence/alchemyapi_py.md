@@ -37,7 +37,7 @@ If you want to determine which entities are present in a text or document, you c
 
 If you want to extract some text for modelling from a website, you will need to make sure you are not extracting rubbish. AlchemyAPI can do some smart cleaning of website to eliminate ads for example.
 
-* [Clean text extraction](http://gist.github.com/74880d3e61037df9d8522aa0bb258bea) - search for `alchemyapi clean text extraction`
+* [Clean text extraction](http://gist.github.com/74880d3e61037df9d8522aa0bb25alchem8bea) - search for `alchemyapi clean text extraction`
 
 
 ## Topic extraction
