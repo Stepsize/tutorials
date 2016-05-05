@@ -22,7 +22,7 @@ To get your API key, just register for an account on [Twilio's website](https://
 
 # Using twilio-python
 
-These are all the relevant code snippets which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app:
+These are all the relevant code snippets which can be retrieved via the [Stepsize](http://stepsize.com/?ref=anvilhack) app:
 - [Set up your client with the credentials](https://gist.github.com/devStepsize/51ab73be1fc45dfe05c5e6120843a701) (grab them [here](https://www.twilio.com/user/account/settings)) - search for `twilio credentials`
 - Send an [SMS](https://gist.github.com/devStepsize/be0c14b55d3d51402272e1fadd760d8f) / [MMS](https://gist.github.com/devStepsize/3a10d53033d1fd3068e0607b9c8bc517) – search for `twilio sms` or `twilio mms`
 - [Make a call](https://gist.github.com/devStepsize/823d1919b37906619dd4888840dc4a79) – search for `twilio make call`
