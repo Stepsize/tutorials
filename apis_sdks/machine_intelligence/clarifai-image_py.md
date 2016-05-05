@@ -8,7 +8,7 @@ It lets you tag pictures like so:
 
 `people` `one` `adult` `flame`
 
-![Burning Basmatty](http://i.imgur.com/jJWlcnR.jpg =100x20)
+<img src="http://i.imgur.com/jJWlcnR.jpg =50x10" alt="Burning Basmatty" style="width: 250px;" />
 
 `performance` `concert` `music` `stage`
 
