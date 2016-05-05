@@ -15,7 +15,7 @@ To share any rich media from your application to WeChat, you'll need to:
   - Create an instance of `WXMediaMessage` – the content to share
   - Send this `WXMediaMessage` via the API using `SendMessageToWXReq` with `WXSceneSession` for messages and `WXSceneTimeline` for moments
 
-These are all the code snippets which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app:
+These are all the code snippets which can be retrieved via the [Stepsize](http://stepsize.com/?ref=anvilhack) app:
   - [Import statements](https://gist.github.com/devStepsize/aba5498b3c760582b48bea41300ecf68) – search for `wechat import`
   - [Image](https://gist.github.com/devStepsize/43098ffc5ae71790301c10344adcf632) – search for `wechat image`
   - [Music](https://gist.github.com/devStepsize/fafbdca599972bb60cf099ca26d4d3ef) – search for `wechat music`

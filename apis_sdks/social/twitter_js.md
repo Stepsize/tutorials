@@ -10,7 +10,7 @@ Then register a new app with Twitter [here](https://apps.twitter.com/) or get th
 
 # Using the Twitter API with Stepsize
 
-These are all the relevant code snippets which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app:
+These are all the relevant code snippets which can be retrieved via the [Stepsize](http://stepsize.com/?ref=anvilhack) app:
 - [Require & setup the Twitter client](https://gist.github.com/devStepsize/37cefa7dd1f9caafa64fb127482a7ff6) – search for `twitter setup`
 - [Retrieve the followers of a specific account](https://gist.github.com/devStepsize/8aac5877c1ecd397791c562ea0edd1de) – search for `twitter followers`
 - [Connect to the Twitter stream and receive tweets matching a filter](https://gist.github.com/devStepsize/c85e2dc690b330004783d8c15b6821f5) – search for `twitter stream`

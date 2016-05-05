@@ -30,7 +30,7 @@ Note: The web pages are rendered with Chromium.
 
 `└── index.html`
 
-The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app is:
+The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=anvilhack) app is:
 - [Basic package.json example](http://gist.github.com/3d7efcd4ded630718e7514f80cb09eeb)
 - [main.js example](http://gist.github.com/4cd160ec48fdcd28b1af74f7c987bdf5)
 - [index.html example](http://gist.github.com/879387356072e51dffb37075bdd3ed7a)
@@ -49,7 +49,7 @@ The [ipcMain](http://electron.atom.io/docs/v0.37.7/api/ipc-main) and [ipcRendere
 
 The renderer process will need to be setup to receive these messages on the other end, this can be done using [ipcRenderer.on](http://electron.atom.io/docs/v0.37.7/api/ipc-renderer/#ipcrendereronchannel-listener) which listens on specific channels the message will be sent down.
 
-The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app is:
+The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=anvilhack) app is:
 - [Main process sending a message to the renderer process](http://gist.github.com/fd7738d9d5e0e1c9cf414687ebdd1bce) - search for `electron webcontents send`
 - [HTML used by the renderer process to receive messages]() - search for `electron ipcrenderer on`
 
@@ -58,7 +58,7 @@ The relevant code snippet which can be retrieved via the [Stepsize](http://steps
 
 The main process then handles this by listening to a specific channel using [ipcMain.on](http://electron.atom.io/docs/v0.37.7/api/ipc-main/#ipcmainonchannel-listener).
 
-The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=hacksussex) app is:
+The relevant code snippet which can be retrieved via the [Stepsize](http://stepsize.com/?ref=anvilhack) app is:
 - [Renderer process sending a message to the main process](http://gist.github.com/e526ac4b2c7f092200a22dbdf0cd8ca2) - search for `electron ipcrender send`
 - [Main processes receiving the message from the renderer](http://gist.github.com/3deea7d0357ea1c419ab6fefc2347b3c) - search for `electron ipcmain on`
 
