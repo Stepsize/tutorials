@@ -7,9 +7,11 @@ This tutorial describes how to get setup with [Clarifai's Python client](https:/
 It lets you tag pictures like so:
 
 `people` `one` `adult` `flame`
-![Burning Basmatty](http://i.imgur.com/jJWlcnR.jpg)
+
+![Burning Basmatty](http://i.imgur.com/jJWlcnR.jpg =100x20)
 
 `performance` `concert` `music` `stage`
+
 ![Concert](http://i.imgur.com/BflW5HQ.jpg)
 
 # Setup
