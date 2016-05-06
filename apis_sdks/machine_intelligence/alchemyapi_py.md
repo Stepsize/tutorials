@@ -4,7 +4,7 @@ AlchemyAPI is machine learning API, for when you need machine brains to do the h
 
 ![too.deep.](https://i.imgflip.com/12xbw1.jpg)
 
-This tutorial provides some code snippets for Python (using the [`requests`](http://docs.python-requests.org/en/master/) library)
+This tutorial provides some code snippets for Python using the [`requests`](http://docs.python-requests.org/en/master/) module.
 
 # Setup
 

@@ -8,25 +8,25 @@ To pick up the new code snippets in the [Stepsize](http://stepsize.com/?ref=anvi
 
 # Index
 
-These are the available tutorials and snippet bundles:
+These are the available tutorials and code snippet bundles:
 
 [APIs & SDKs](https://github.com/Stepsize/tutorials/tree/master/apis_sdks)
 - [Communications](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/communications)
-  - Botkit [[Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/botkit_js.md)]
-  - Slack [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/slack_py.md)]
-  - Twilio [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/twilio_py.md)]
-  - WeChat [[Objective-C](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/wechat_objc.md)]
+  - Botkit [[Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/botkit_js.md)] – create Slack & Facebook Messenger bots
+  - Slack [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/slack_py.md)] – build cool Slack integrations, slash commands, and bots
+  - Twilio [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/twilio_py.md)] – send and receive text messages and phone calls
+  - WeChat [[Objective-C](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/communications/wechat_objc.md)] – allow users of your app to share content to WeChat
 - [Machine Intelligence](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/machine_intelligence)
-  - AlchemyAPI [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/alchemyapi_py.md)]
-  - Azure Face API [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/azure-face_py.md)]
-  - Clarifai Image Tagging API [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/clarifai-image_py.md) | [Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/clarifai-image_js.md)]
-  - Watson Tone Analyser [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/watson-toneanalyser_py.md)]
+  - AlchemyAPI [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/alchemyapi_py.md)] – process text in all sorts of cool ways using Deep Learning
+  - Azure Face API [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/azure-face_py.md)] – recognise and analyse faces in images
+  - Clarifai Image Tagging API [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/clarifai-image_py.md) | [Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/clarifai-image_js.md)] – tag images by content
+  - Watson Tone Analyser [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/watson-toneanalyser_py.md)] – detect emotion, social tendencies, and language style in pieces of text
 - [Social](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/social)
-  - Twitter [[Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/social/twitter_js.md)]
+  - Twitter [[Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/social/twitter_js.md)] – integrate Twitter into your app or website
 
 [Frameworks & Libraries](https://github.com/Stepsize/tutorials/tree/master/frameworks_libraries)
 - [Miscellaneous](https://github.com/Stepsize/tutorials/tree/master/frameworks_libraries/misc)
-  - Electron [[Node.js](https://github.com/Stepsize/tutorials/tree/master/frameworks_libraries/misc/electron_js.md)]
+  - Electron [[Node.js](https://github.com/Stepsize/tutorials/tree/master/frameworks_libraries/misc/electron_js.md)] – build cross-platform desktop apps with web technologies using GitHub's [Electron framework](https://github.com/electron/electron)
 
 # Requests
 
