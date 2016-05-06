@@ -20,6 +20,7 @@ These are the available tutorials and snippet bundles:
   - AlchemyAPI [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/alchemyapi_py.md)]
   - Azure Face API [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/azure-face_py.md)]
   - Clarifai Image Tagging API [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/clarifai-image_py.md) | [Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/clarifai-image_js.md)]
+  - Watson Tone Analyser [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/watson-toneanalyser_py.md)]
 - [Social](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/social)
   - Twitter [[Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/social/twitter_js.md)]
 
