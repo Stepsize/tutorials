@@ -21,6 +21,8 @@ These are the available tutorials and code snippet bundles:
   - Azure Face API [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/azure-face_py.md)] – recognise and analyse faces in images
   - Clarifai Image Tagging API [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/clarifai-image_py.md) | [Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/clarifai-image_js.md)] – tag images by content
   - Watson Tone Analyser [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/machine_intelligence/watson-toneanalyser_py.md)] – detect emotion, social tendencies, and language style in pieces of text
+- [Music](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/music)
+  - Spotify [[Python](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/music/spotify.md)] – get lots of data on artists, albums, etc.
 - [Social](https://github.com/Stepsize/tutorials/tree/master/apis_sdks/social)
   - Twitter [[Node.js](https://github.com/Stepsize/tutorials/blob/master/apis_sdks/social/twitter_js.md)] – integrate Twitter into your app or website
 
